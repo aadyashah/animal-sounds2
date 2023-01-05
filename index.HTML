@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Sound controlled animals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center>
+      <div class="col-xs-12 header_div text-center" >
+        <h2>Sound Controlled Animals</h2>
+        <p> Note: Play different sounds like braking , meowing ,roar and mooing </p>
+      </div>
+      <div class="main_div">
+        <br>
+        <button onclick="start_classification()" class="btn btn-primary">START</button>
+        <h3 id="animal_sound_result">detected voice is of- </h3>
+        <h3 id="animal_sound_accuracy">detected dog-  detected cat- </h3>
+        
+        
+        <img src="OIP-removebg-preview (1).png" id="ear_img" height="250" width="300">
+       
+      </div>
+      <div class="copy_right_footer">
+        Devloped By- Aadya Shah
+      </div>
+  </body>
